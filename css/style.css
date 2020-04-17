@@ -48,7 +48,7 @@ header .navbar-collapse {
 header .navbar {
   padding-top: 0;
   padding-bottom: 0;
-  background: #fff !important;
+  background: #FDE9AA !important;
 }
 
 @media (max-width: 991.98px) {
