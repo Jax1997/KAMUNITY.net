@@ -1107,7 +1107,7 @@ blockquote p {
   font-size: 40px;
   width: 90px;
   height: 90px;
-  background: #FDE9AA;
+  background: #fff;
   display: block;
   border-radius: 50%;
   opacity: .8;
@@ -1190,7 +1190,7 @@ blockquote p {
 
 .block-17 form {
   padding: 20px;
-  background: #fff;
+  background: #FDE9AA;
   -webkit-box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.2);
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.2);
 }
