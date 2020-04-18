@@ -1422,7 +1422,7 @@ blockquote p {
 }
 
 .block-20 {
-  background: #FDE9AA;
+  background: #fff;
   -webkit-box-shadow: 0 5px 30px -10px rgba(0, 0, 0, 0.2);
   box-shadow: 0 5px 30px -10px rgba(0, 0, 0, 0.2);
 }
@@ -1650,7 +1650,7 @@ blockquote p {
 }
 
 .block-2 .back {
-  background: #fff;
+  background: #FDE9AA;
   -webkit-box-shadow: 0 0 70px -10px rgba(0, 0, 0, 0.4);
   box-shadow: 0 0 70px -10px rgba(0, 0, 0, 0.4);
   -webkit-transform: rotateY(-180deg);
