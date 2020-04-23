@@ -149,7 +149,7 @@ header .navbar.navbar-light .nav-link.active {
 }
 
 .bcrumb a:hover {
-  color: #FDE9AA;
+  color: #fff;
   text-decoration: underline;
 }
 
@@ -201,7 +201,7 @@ header .navbar.navbar-light .nav-link.active {
 .site-hero .btn:hover {
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
-  background: none !important;
+  background: #FDE9AA !important;
   color: #fff;
   border: 2px solid #fff !important;
 }
