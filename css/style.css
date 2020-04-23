@@ -1,5 +1,5 @@
 body {
-  background: #fff;
+  background: #FDE9AA;
   font-family: "Rubik", arial, sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -201,7 +201,7 @@ header .navbar.navbar-light .nav-link.active {
 .site-hero .btn:hover {
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
-  background: #FDE9AA !important;
+  background: none !important;
   color: #fff;
   border: 2px solid #fff !important;
 }
@@ -799,7 +799,7 @@ textarea.form-control {
 }
 
 .media-custom {
-  background: #fff;
+  background: #FDE9AA;
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
