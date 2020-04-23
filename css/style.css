@@ -799,7 +799,7 @@ textarea.form-control {
 }
 
 .media-custom {
-  background: #FDE9AA;
+  background: #fff;
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
@@ -1190,7 +1190,7 @@ blockquote p {
 
 .block-17 form {
   padding: 20px;
-  background: #fff;
+  background: #FDE9AA;
   -webkit-box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.2);
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.2);
 }
