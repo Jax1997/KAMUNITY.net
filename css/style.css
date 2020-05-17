@@ -1,5 +1,5 @@
 body {
-  background: #FDE9AA;
+    background: #FDE9AA;
   font-family: "Rubik", arial, sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -127,6 +127,7 @@ header .navbar .dropdown-menu:before {
 
 header .navbar .dropdown-menu .dropdown-item:hover {
   background: #4D7728;
+;
   color: #fff;
 }
 
