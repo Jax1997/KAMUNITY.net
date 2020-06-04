@@ -1058,7 +1058,9 @@ blockquote p {
   position: relative;
   overflow-x: hidden;
 }
-
+footer{
+    background-color: white;
+}
 .site-footer {
   background-size: cover;
   background-position: center center;
