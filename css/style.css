@@ -2152,3 +2152,11 @@ footer{
   }
 }
 
+.vertical-line{
+    border-left: 2px solid #4D7728;
+    display: inline-block;
+    height: 84px;
+    width: 1px;
+    margin: 0 20px
+}
+
