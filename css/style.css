@@ -1,5 +1,5 @@
 body {
-    background: #FDE9AA;
+    /*background: #FDE9AA;*/
   font-family: "Rubik", arial, sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -2160,4 +2160,32 @@ footer{
     margin: 0 20px
 }
 
+.whiteBackground {
+  background: #fff;
+}
 
+.yellowBackground{
+  background: #FDE9AA;
+}
+
+@media (min-width: 1200px){
+.containerPadding {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+}
+@media (min-width: 992px){
+.containerPadding {
+  padding-left: 32px;
+  padding-right: 32px;
+}}
+@media (min-width: 768px){
+.containerPadding {
+  padding-left: 48px;
+  padding-right: 48px;
+}}
+@media (min-width: 576px){
+.containerPadding {
+  padding-left: 36px;
+  padding-right: 36px;
+}}
