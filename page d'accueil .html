@@ -67,34 +67,48 @@
               <div class="block-17">
                 <h2 class="heading text-center mb-4">Trouve ton cours en ligne</h2>
                 <form action="" method="post" class="d-block d-lg-flex mb-4">
+
                   <div class="fields d-block d-lg-flex">
-                    <div class="textfield-search one-third"><input type="text" class="form-control" placeholder="Cherche ton cours ici... "></div>
+                    <div class="textfield-search one-fourth"><input type="text" class="form-control" name="" placeholder="Cherche ton cours ici... "></div>
                     <div class="select-wrap one-third">
                       <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                      <select name="" id="" class="form-control">
-                        <option value="">Types de cours</option>
-                        <option value="">Fiches de cours</option>
-                        <option value="">Travaux Dirigés</option>
-                        <option value="">Travaux Pratiques</option>
-                        <option value="">Cours Magistraux</option>
-                        <option value=""> Autres </option>
+                      <select name="categorie" id="" class="form-control">
+                       
+                        <option value=""><strong> Types de cours</strong></option>
+                        <option value="sc">Science</option>
+                        <option value="sh">Sciences Humaines</option>
+                        <option value="lit">Litterature</option>
+                        <option value="hs">Histoire</option>
+                        <option value="law"> Droit </option>
+                        <!-- ajouter plus d'option en fonction de notre bdd -->
                       </select>
                     </div>
-                    <div class="select-wrap one-third">
+                    <div class="select-wrap one-fourth">
                       <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                      <select name="" id="" class="form-control">
-                        <option value="">Cours mis en ligne</option>
+                      <select name="source" id="" class="form-control">
+                        <option value="all"> <strong> Cours mis en ligne</strong></option>
                         <option value="">Par un étudiant</option>
                         <option value="">Par un professeur</option>
                         <option value="">Par un autodidacte</option>
-                        <option value="">Par "autres"</option>
+                        <option value="">autres </option>
+                      </select>
+                    </div>
+                    <div class="select-wrap one-fourth">
+                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                      <select name="langue" id="" class="form-control">
+                        <option value="all"><strong> Langue</strong></option>
+                        <option value="">Français</option>
+                        <option value="">Anglais</option>
+                        <option value="">Wolof</option>
+                        <option value="">Portugais </option>
                       </select>
                     </div>
                   </div>
-                  <input type="submit" class="search-submit btn btn-primary" value="Chercher">  
+                  <input type="submit" class="search-submit btn btn-primary" value="recherche">  
                 </form>
-                <p class="text-center mb-5">Le premier réseau social qui réunit tous les étudiants francophones !</p>
-                <p class="text-center"><a href="#" class="btn py-3 px-5">Publie ton cours maintenant</a></p>
+                <!--<p class="text-center mb-5">Le premier réseau social qui réunit tous les étudiants francophones!</p>-->
+                <!--pas tout a fait juste nous reunissson aussi des etuadiants francophone voir meme plus-->
+                <p class="text-center"><a href="ajoutCours.php" class="btn py-3 px-5">Publie ton cours maintenant</a></p>
               </div>
             </div>
 
@@ -270,7 +284,7 @@
       </div>
       <div class="container-fluid yellowBackground site-section"> 
 
-        <center><p class="text-center" align=center><a href="#" class="btn py-3 px-5" style="color: white; background-color:#4D7728" align=center>Publie ton cours maintenant ! </a></p></center>
+        <center><p class="text-center" align="center"><a href="#" class="btn py-3 px-5" style="color: white; background-color:#4D7728" align="center">Publie ton cours maintenant ! </a></p></center>
     </div>
       </section>
     <!-- END section -->
